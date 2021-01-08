@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 
-div#home-section .section-title, div#home-section .subtitle {
+div#home-section .section-title, div#home-section .subtitle{
   padding: 20px;
 }
 
@@ -80,4 +80,9 @@ div.row ul {
 
 div h3 {
   padding-top: 30px;
+}
+
+#contact-section {
+  margin-top: 100px;
+  background-image: linear-gradient(to bottom, white, grey, #39275B);
 }
