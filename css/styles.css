@@ -43,3 +43,8 @@ div.card-title {
 div.card img {
   height: 186px;
 }
+
+.aboutme-section {
+  background-image: linear-gradient(to bottom, #fae398, white);
+  padding-top: 200px;
+}
