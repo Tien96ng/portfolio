@@ -1,9 +1,9 @@
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
-#title, #subtitle {
-  text-align: center;
+div.home-section .section-title, div.home-section .subtitle {
   padding: 20px;
 }
 
@@ -23,4 +23,10 @@ div h2 {
 .epicodus-plug {
   text-decoration: underline;
   color: #05B3B3;
+}
+
+.project-section {
+  padding-top: 10px;
+  margin-top: 200px;
+  background: tan;
 }
