@@ -48,3 +48,16 @@ div.card img {
   background-image: linear-gradient(to bottom, #fae398, white);
   padding-top: 200px;
 }
+
+.uw-logo {
+  height: 200px;
+}
+
+div .aboutme-left {
+  float: left;
+  padding-left: 100px;
+}
+
+.aboutme-row {
+  border: 2px solid black;
+}
