@@ -14,8 +14,8 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top"">
+      <a class="navbar-brand" href="#home-section">
         <img src="img/logo.png" width="60" height="60" class="d-inline-block align-top" alt="" loading="lazy">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,13 +24,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#home-section">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#projects-section">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link" href="#aboutme-section">About Me</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact Me</a>
@@ -39,7 +39,7 @@
       </div>
     </nav>
 
-    <div class="container home-section">
+    <div class="container" id="home-section">
       <div class="row">
         <div class="col-sm">
           <strong><h1 class="section-title">Aspiring Developer</h1></strong>
@@ -71,7 +71,7 @@
       </div>
     </div>
 
-    <div class="container-fluid project-section">
+    <div class="container-fluid project-section" id="projects-section">
       <div class="row">
         <div class="col-sm">
           <h1 class="section-title"> My Work </h3>
@@ -120,15 +120,15 @@
       </div>
     </div>
 
-    <div class="container-fluid aboutme-section">
+    <div class="container-fluid aboutme-section" id="aboutme-section">
       <div class="row">
         <div class="col-sm">
-          <h1 class="section-title"> Get to Know Me </h3>
+          <h1 class="section-title"> About Me </h3>
         </div>
       </div>
       <div class="row">
         <div class="col-sm">
-          <h2 class="subtitle"> About me and more! </h2>
+          <h2 class="subtitle"> Get to know me and more! </h2>
         </div>
       </div>
       <div class="row aboutme-row">
@@ -143,9 +143,115 @@
               <h2 class="aboutme-left"> Bachelor of Science in Information Technology </h2>
             </div>
           </div>
+          <div class="row">
+            <div class="col-sm">
+              <p class="aboutme-left">
+                <em>The ABET-accredited Bachelor of Science in Information Technology 
+                at the School of Engineering & Technology prepares students for a 
+                variety of IT positions to meet growing demand in the Pacific Northwest. </em>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <ul>
+              <li>
+                <strong>Emphasizes a practicum and interest-based specialization-oriented degree.</strong> 
+                This means that there is a greater emphasis on application, deployment, configuration and development than on theory and principles. 
+                Students can choose to specialize in a sub-area of information technology such as Cybersecurity or Digital Forensics.
+              </li>
+              <li>
+                <strong>Actively responds to emerging technology trends and diversifications in information systems. </strong>
+                The technology that manages information changes quickly as practitioners attempt to address real-world problems in industry, government, research, and education. 
+                This program will respond to changes that reflect trends. 
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-sm-3">
-          <img class="uw-logo" src="https://ctycms.com/wa-bellevue/images/8_16_17_member_university_of_washington.png" alt="University of Washington">
+          <img class="aboutme-logo" src="https://ctycms.com/wa-bellevue/images/8_16_17_member_university_of_washington.png" alt="University of Washington">
+        </div>
+      </div>
+      <div class="row aboutme-row">
+        <div class="col-sm-3">
+          <img class="aboutme-logo" src="https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/0_6qgrp3ou/def_height/2700/def_width/2700/version/100012/type/1" alt="weyerhaeuser logo">
+        </div>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm">
+              <h3 class="aboutme-right"> Weyerhaeuser </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <h2 class="aboutme-right"> IT ServiceDesk Specialist II </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <p class="aboutme-right">
+                <em>This position provides value to our staff by enabling them to complete their duties through the use of technology. 
+                The Service Desk Specialist provides end-user hardware and software Tier 2 support by email, phone, and in person to 
+                WY Facilities staff, and in some cases campus personnel outside of WY Facilities. Candidates in this role must have excellent 
+                communication, customer service, and problem-solving skills.</em>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <ul>
+              <li>
+                This position functions as a central point of contact and escalation for customer needs relating to personal computers, 
+                peripherals, software, network and system needs.
+              </li>
+              <li>
+                Solving technology operational and application problems that customers face; assessing needs; troubleshooting problems to assure 
+                technical excellence and patient safety are characteristics of this position.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row aboutme-row">
+          <div class="col-sm-9">
+            <div class="row">
+              <div class="col-sm">
+                <h3 class="aboutme-left"> The Real Tien </h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm">
+                <h2 class="aboutme-left"> Outside of Work and Education </h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm">
+                <p class="aboutme-left">
+                  <em>
+                    Since beginning my journey as a developer at the start of 2020, I've self taught myself what I could until I simply platued.
+                    Thanks to many open source material through Freecodecamp, Scrimba, Odin Project, and simply YouTube, I was able to learn 
+                    HTML, CSS, JavaScript, jQuery, PostgresSQL, ReactJs, Redux, and Vue. I believe with the help and guidance of <spaan class="epicodus-plug"> Epicodus </spaan>
+                    I can definitely advance through my goals and accomplish the next steps to Software Development and set a 5 year plan. 
+                    <strong>BUT enough about coding</strong>, here more about the real Tien: 
+                  </em>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <ul>
+                <li>
+                  <strong>NBA and Basketball Fanatic:</strong> 
+                  The Ball goes through the hoop sometimes and makes a cool swish noise. No but seriously, it truly entertaining, feels like
+                  a community, ability to burn cardio enoyfully, and the ability to witness the greatest professionals to ever play.
+                </li>
+                <li>
+                  <strong>Food Enthusiastic:</strong>
+                  Besides the obvious need to not perish and gain energy, it creates culture, communities, friendships, and relationships. From groups of chefs
+                  collaborating to food limitation groups, vegans, there always a sense of belonging and camaraderie.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <img class="aboutme-logo" src="img/gf.png" alt="girlfriend">
+          </div>
         </div>
       </div>
       
