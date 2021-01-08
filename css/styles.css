@@ -7,6 +7,10 @@ div.home-section .section-title, div.home-section .subtitle {
   padding: 20px;
 }
 
+div.home-section .section-title {
+  font-size: 60px;
+}
+
 div h2 {
   font-size: medium;
   color: #606060;
@@ -28,5 +32,14 @@ div h2 {
 .project-section {
   padding-top: 10px;
   margin-top: 200px;
-  background: tan;
+  background-image: linear-gradient(to bottom, white, #fae398);
+  padding-bottom: 30px;
+}
+
+div.card-title {
+  font-weight: bold;
+}
+
+div.card img {
+  height: 186px;
 }
