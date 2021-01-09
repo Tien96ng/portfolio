@@ -1,4 +1,5 @@
 body {
+  margin-top: 80px;
   font-family: sans-serif;
   text-align: center;
 }
@@ -108,4 +109,10 @@ div#contact-section .section-title {
 
 div#contact-section div.row {
   padding-top: 40px;
+}
+
+nav {
+  background-color: white;
+  padding-bottom: 200px;
+  position: relative;
 }
