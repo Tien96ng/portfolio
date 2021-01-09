@@ -67,6 +67,7 @@ div .aboutme-right {
 
 .aboutme-row {
   border: 1px #39275B dashed;
+  margin: 0px 20px 0px 20px;
 }
 
 div.row ul {
@@ -83,6 +84,21 @@ div h3 {
 }
 
 #contact-section {
-  margin-top: 100px;
-  background-image: linear-gradient(to bottom, white, grey, #39275B);
+  margin-top: 300px;
+  background-image: linear-gradient(to bottom, white, thistle, plum);
+  padding-bottom: 100px;
+}
+
+div#contact-section ul {
+  text-align: center;
+  width: 150px;
+  padding-left: 10px;
+  box-sizing: content-box;
+  border: black dotted 2px;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+div#contact-section .section-title {
+  border-bottom: solid 1px black;
 }
