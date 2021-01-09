@@ -30,10 +30,13 @@ div h2 {
 }
 
 .project-section {
-  padding-top: 10px;
   margin-top: 200px;
   background-image: linear-gradient(to bottom, white, #fae398);
-  padding-bottom: 30px;
+  padding: 10px 50px 10px 50px;
+}
+
+#project-row {
+  padding: 50px 0px 0px 130px;
 }
 
 div.card-title {
