@@ -100,5 +100,9 @@ div#contact-section ul {
 }
 
 div#contact-section .section-title {
-  border-bottom: solid 1px black;
+  border-bottom: double;
+}
+
+div#contact-section div.row {
+  padding-top: 40px;
 }
